@@ -1,0 +1,109 @@
+/* Write some CSS below */
+body{
+    text-align: center;
+    background-color: #F1CAB6;
+    font-size: 18px;
+    color : black;
+}
+    
+    h1{
+        font-size: 35px;
+        font-weight: bold;
+        font-family: "Lora", sans-serif;
+        
+    }
+    
+    h2 {
+        color :blueviolet;
+        font-weight: bold;
+        font-family: "lora" sans-serif;
+
+    }
+
+    a:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .container{
+        width: 700px;
+        margin: 10px auto;
+    }
+    .cards-white{
+        background-color: #F6F2F2;
+        border-radius: 10px;
+        box-shadow: Opx 10px 20px rgba(0,0,0.1);
+        padding: 40px;
+        margin: 20px 0;
+        text-align: center;
+        border: 5px solid #f6aeae;
+        box-shadow: 10px 20px 50px#E4A1A1;
+    }
+  .buton-blue{
+    color: white;
+    background-color: #F1CAB6;
+    border-radius: 5px;
+    padding : 15px 25px;
+    font-family: "open sans";
+    font-weight: 600;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+    .img-circle{
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        padding: 20px;
+
+    }
+
+
+    #introduction p {
+        margin-bottom: 30px;
+
+    }
+
+
+    .list-inline{
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .list-inline li {
+        display: inline;
+    }
+
+    .list-inline li i {
+        font-size: 50px;
+        color: black;
+        margin: 20px;
+    }
+
+    .list-inline i :hover{
+        opacity: 0.7;
+    }
+    
+    p{
+        font-family: "Open Sans";
+        text-align: center;
+    
+    }
+
+.cards {
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+    gap : 16px;
+    margin: 0px;
+}
+
+.img-voyages{
+    border-radius: 50px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    padding: 20px;
+
+}
